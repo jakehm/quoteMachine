@@ -1,7 +1,12 @@
 body {
   padding-top: 50px;
+  font-size: 200%;
 }
 .quote-machine {
   padding: 40px 15px;
   text-align: center;
+}
+
+#new-quote{
+  font-size: 100%;
 }
