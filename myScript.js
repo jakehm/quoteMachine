@@ -13,7 +13,7 @@ $.ajax( {
         $('#quote-title').text(post.title);
         $('#quote-content').html(post.content);
         twttr.widgets.createShareButton(
-          "",
+          "#",
           document.getElementById("tweet-container"),
           {
             size: "large",
@@ -38,7 +38,7 @@ $('#new-quote').on('click', function(e){
         $('#clickBadge').text(clicks);
         $('#tweet-container').empty();
         twttr.widgets.createShareButton(
-          "",
+          "#",
           document.getElementById("tweet-container"),
           {
             size: "large",
